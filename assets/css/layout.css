@@ -1,0 +1,90 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import './font.css';
+@import './reset.css';
+@import './common.css';
+
+
+
+ 
+
+
+/* header */
+
+header{
+    
+    position: fixed;
+    width: 100%;
+    padding: 1vw 1.5vw;
+    background-color: transparent;
+}
+header .h-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    font-size: 2vw;
+    font-weight: bold;
+}
+header .nav{
+}
+header .nav .nav-list{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    overflow: hidden;
+    padding: 0.5rem 0;
+    gap: 3vw;
+}
+header .nav .nav-item{}
+header .nav .nav-item a{
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+header .contact{
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+
+}
+header .contact .link-area:hover{
+    background: #f2294a;
+    border: 1px solid #f2294a;
+    color: #fff;
+}
+header .contact .link-area{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: .5vw 1vw;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+
+
+/* container */
+
+.container{
+    padding: 0 4vw;
+}
+
+
+
+/* footer */
+.footer{
+}
+.footer .container{
+}
+.footer .info-wrap{
+    padding: 5vh 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.footer .info-wrap h2{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.footer .info-wrap p{
+    font-size: 1rem;
+    line-height: 1.2;
+}

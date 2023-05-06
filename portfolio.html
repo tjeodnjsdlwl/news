@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+    <style>
+        .loading{
+            position: fixed;
+            top: 0;left: 0;width: 100%;
+            height: 100%;
+            background: #ccc;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .loading .text-area{
+            position: relative;
+            width: 100%;
+            /* background: #f00; */
+            font-size: 5vw;
+            overflow: hidden;
+            font-family: var(--font-en1);
+            text-align: center;
+        }
+        .loading .text-area .text{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .loading .text-area .txt1{}
+
+        .loading .text-area .txt2,
+        .loading .text-area .txt3{
+            position: absolute;
+            top: 100%;
+            width: 100%;
+        }
+    </style>
+
+    <div class="loading" style="display:none">
+
+        <div class="text-area">
+            <span class="text txt1">
+                <i>H</i> <i>e</i> <i>l</i> <i>l</i> <i>o.</i>
+            </span>
+            <span class="text txt2">
+                <i>반</i> <i>갑</i> <i>습</i> <i>니</i> <i>다.</i>
+            </span>
+            <span class="text txt3">
+                <i>嬉</i> <i>し</i> <i>い</i> <i>で</i> <i>す</i>
+            </span>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="h-wrap">
+            <h1><a href="" class="logo">BCR</a></h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="">Work</a></li>
+                    <li class="nav-item"><a href="">Services</a></li>
+                    <li class="nav-item"><a href="">About</a></li>
+                    <li class="nav-item"><a href="">News</a></li>
+                    <li class="nav-item"><a href="">Responsibility</a></li>
+                </ul>
+            </nav>
+            <button class="contact"><a href="" class="link-area">contact</a></button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="sc-visual">
+            <img src="./assets/img/p1.png" alt class="deco1">
+            <img src="./assets/img/p2.png" alt class="deco2">
+            <img src="./assets/img/p3.png" alt class="deco3">
+            <!-- <img src="./assets/img/p4.png" alt class="deco4"> -->
+
+            <div class="front-text">
+                <p>
+                하이브랩은 플랫폼 중심의 디지털 커뮤니케이션 에이전시입니다.<br>
+                우리의 솔루션은 새로운 시대와 세대를 위한 디지털 트랜스포메이션 혁신에 주목합니다.<br>
+                하이브랩은 고객의 비즈니스 플랜에 새로운 가치와 기회를 발견하여 최적의 서비스를 제공합니다.
+                </p>
+            </div>
+            <div class="words-wrap">
+                <div class="right-wrods">
+                    <h2 class="big-wrods">CHANGE</h2>
+                    <!-- <div class="gif"><img src="./assets/img/loveliver.gif" alt></div> -->
+                </div>
+                <div class="left-wrods">
+                    <h2 class="big-wrods">IS IN</h2>
+                    <h2 class="big-wrods">OUR NATURE</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="sc-01">
+            <div class="container">
+                <div class="info-wrap">
+                    <p class="left-desc">Transforming brands for growth</p>
+                    <p class="desc">What can we do for you?</p>
+                </div>  
+                <div class="img-box">
+                    <img src="./assets/img/p3.png" alt="">
+                    <p class="txt">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sc-03">
+            <div class="container">
+                <div class="text-wrap">
+                    <p>BaseCreate</p>
+                    <strong class="big">We are a creative agency working with brands – building insightful strategy, creating
+                        unique designs and crafting experiences that bring positive change and value.</strong>
+                </div>
+            </div>
+        </section>
+        <section class="sc-04">
+            <div class="container">
+                <div class="banner-wrap">
+                    <ul class="banner-list">
+                        <li class="banner-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/img/banner_naver.gif" alt>
+                                </div>
+                                <div class="text-box">
+                                    <strong class="title">NAVER</strong>
+                                    <p class="desc"># clone # css # adaptive</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/img/banner_glab.png" alt>
+                                </div>
+                                <div class="text-box">
+                                    <strong class="title">G.GLAB</strong>
+                                    <p class="desc"># clone # css # adaptive</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/img/banner_pi.png" alt>
+                                </div>
+                                <div class="text-box">
+                                    <strong class="title">PI첨단소재</strong>
+                                    <p class="desc"># swiper # responsive # clone</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/img/banner_samsung.png" alt>
+                                </div>
+                                <div class="text-box">
+                                    <strong class="title">DESIGN SAMSUNG</strong>
+                                    <p class="desc"># swiper # responsive # clone</p>
+                                </div>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sc-05">
+            <div class="container">
+                <div class="btn-wrap">
+                    <ul class="btn-list">
+                        <li class="btn-item"><a href="">Brand Strategy & Voice</a></li>
+                        <li class="btn-item"><a href="">Branding & Design</a></li>
+                        <li class="btn-item"><a href="">Digital & Web</a></li>
+                        <li class="btn-item"><a href="">Content & Campaigns</a></li>
+                        <li class="btn-item"><a href="">Events & Activations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sc-06">
+            <div class="container">
+                <div class="text-wrap">
+                    <h2 class="title">WHAT OUR CLIENTS SAY</h2>
+                    <button class="link-more">MORE TESTIMONIALS</button>
+                </div>
+            </div>
+        </section>
+        <section class="sc-07">
+            <div class="container">
+                <ul class="banner-wrap">
+                    <li class="banner-list">
+                        <div class="circle-img">
+                            <img src="./assets/img/circle-img.jpg">
+                        </div>
+                        <p class="desc">“We consider BaseCreate to be our business partners for our Manuka honey. They really went
+                            aboveand beyond for us”</p>
+                        <button class="link-more">Read more</button>
+                        <div class="info-area">
+                            <strong>Elena Brambilla</strong>
+                            <p>Founder<br>Manuka Royale</p>
+                        </div>
+                    </li>
+                    <li class="banner-list">
+                        <div class="circle-img">
+                            <img src="./assets/img/circle-img.jpg">
+                        </div>
+                        <p class="desc">“We consider BaseCreate to be our business partners for our Manuka honey. They really went
+                            aboveand beyond for us”</p>
+                        <button class="link-more">Read more</button>
+                        <div class="info-area">
+                            <strong>Elena Brambilla</strong>
+                            <p>Founder<br>Manuka Royale</p>
+                        </div>
+                    </li>
+                    <li class="banner-list">
+                        <div class="circle-img">
+                            <img src="./assets/img/circle-img.jpg">
+                        </div>
+                        <p class="desc">“We consider BaseCreate to be our business partners for our Manuka honey. They really went
+                            aboveand beyond for us”</p>
+                        <button class="link-more">Read more</button>
+                        <div class="info-area">
+                            <strong>Elena Brambilla</strong>
+                            <p>Founder<br>Manuka Royale</p>
+                        </div>
+                    </li>
+                    <li class="banner-list">
+                        <div class="circle-img">
+                            <img src="./assets/img/circle-img.jpg">
+                        </div>
+                        <p class="desc">“We consider BaseCreate to be our business partners for our Manuka honey. They really went
+                            aboveand beyond for us”</p>
+                        <button class="link-more">Read more</button>
+                        <div class="info-area">
+                            <strong>Elena Brambilla</strong>
+                            <p>Founder<br>Manuka Royale</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sc-08">
+            <div class="container">
+                <div class="title-wrap">
+                    <h2 class="title">FEATURED NEWS</h2>
+                    <button class="link-more">NEWS OVERVIEW</button>
+                </div>
+                <ul class="news-list">
+                    <li class="news-item">
+                        <div class="txt-left">
+                            <div class="info-area">
+                                <p class="title">INSIGHTS</p>
+                                <span class="time">5 mins</span>
+                            </div>
+                            <strong>Taking your brand into the metaverse</strong>
+                            <div class="info-area">
+                                <p class="name">Matthew Kinsman</p>
+                                <span class="bate">07.11.2022</span>
+                            </div>
+                        </div>
+                        <div class="txt-right">
+                            <p>Market research firm Gartner predicts that by 2026 one-fourth of people will spend at least 1 hour a day 
+                                in metaverse worlds. We list 5 key steps to help you take your brand into the metaverse.</p>
+                        </div>
+                    </li>
+                    <li class="news-item">
+                        <div class="txt-left">
+                            <div class="info-area">
+                                <p class="title">INSIGHTS</p>
+                                <span class="time">5 mins</span>
+                            </div>
+                            <strong>Taking your brand into the metaverse</strong>
+                            <div class="info-area">
+                                <p class="name">Matthew Kinsman</p>
+                                <span class="bate">07.11.2022</span>
+                            </div>
+                        </div>
+                        <div class="txt-right">
+                            <p>Market research firm Gartner predicts that by 2026 one-fourth of people will spend at least 1 hour a day 
+                                in metaverse worlds. We list 5 key steps to help you take your brand into the metaverse.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="info-wrap">
+                <h2>BaseCreate</h2>
+                 <p class="tel">+852 2868 2793 +852 3586 0792</p>
+                <p class="email">info@basecreate.com</p>
+            </div>
+        </div>
+        <section class="sc-09">
+            <div class="footer-overflow">
+                <ul class="tslide-list">
+                    <li class="tslide-item">1Chaerin Portfolio Chaerin Portfolio Chaerin Portfolio Chaerin Portfolio</li>
+                    <li class="tslide-item">1Chaerin Portfolio Chaerin Portfolio Chaerin Portfolio Chaerin Portfolio</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+
+    
+</body>
+
+</html>
